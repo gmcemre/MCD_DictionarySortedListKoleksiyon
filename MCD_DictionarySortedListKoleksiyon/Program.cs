@@ -62,6 +62,8 @@ namespace MCD_DictionarySortedListKoleksiyon
             {
                 Console.WriteLine("Anahtar : {0} || Değer : {1}",item .Key ,item .Value );
             }
+
+            DictionaryList.Clear();//Liste temizlendi.
             Console.ReadLine();
         }
     }
